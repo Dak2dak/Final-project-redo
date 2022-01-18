@@ -771,9 +771,13 @@ so I am gonna keep it. */
 }
 
 .portfolio__description--text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #6d6a7c;
     margin-top: 1rem;
+}
+
+.portfolio__description--text p {
+    display: inline-block;
 }
 
 .portfolio__button {
