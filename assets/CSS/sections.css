@@ -169,7 +169,7 @@ nav {
 .github-icon,
 .dribble-icon,
 .linkedin-icon {
-    width: 30px;
+    width: 40px;
     fill: #6e57e0;
 }
 
@@ -194,12 +194,13 @@ nav {
 
 .home__heading--subtitle {
     margin-bottom: 1.5rem;
+    font-size: 2rem;
     color: #6d6a7c;
 }
 
 .home__description {
     color: #6d6a7c;
-    font-size: 1.042rem;
+    font-size: 1.5rem;
 }
 
 .home__down a {
@@ -236,6 +237,10 @@ nav {
 
 .about__headings {
     padding: 3rem 0;
+}
+
+.about__headings--title {
+    font-size: 2rem;
 }
 
 .about__headings--subtitle {
