@@ -10,12 +10,16 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    padding: 0 1.5rem;
+}
+
 header {
     padding: 1rem 1.5rem;
 }
 
 section{
-    padding: 0 1.5rem;
+    padding: 0;
     border: solid;
 }
 /* ================================================================================ */
