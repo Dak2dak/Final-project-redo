@@ -339,6 +339,7 @@ nav {
     justify-content: space-between;
     margin-bottom: 3rem;
     padding-bottom: 1.5rem;
+    max-height: 76px;
 }
 
 .box__right {
@@ -356,6 +357,10 @@ nav {
 
 .icon__box {
     padding-top: 1rem;
+}
+
+.icon__box a {
+    width: 100%;
 }
 
 .progression__bar--box {
@@ -419,6 +424,14 @@ nav {
 .python-bar {
     width: 55%;
 }
+
+/* Scrolling div */
+#content.open {
+    max-height: 250px;
+}
+
+
+
 /* ================================================================================ */
 
 

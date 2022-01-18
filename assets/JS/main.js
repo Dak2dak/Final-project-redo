@@ -1,5 +1,21 @@
 
 
+// ==========Skills JavaScript code====================
+
+const content = document.getElementById('content');
+const skillBtn = document.getElementById('show-more');
+
+skillBtn.onclick = function () {
+    if(content.className == 'open') {
+        //shrink the box
+        content.className = "";
+    }
+    else {
+        //expand the box
+        content.className = "open";
+    }
+};
+
 // ==========Qualification JavaScript code====================
 
 const workBtn = document.querySelector('#qualification2');
