@@ -193,7 +193,7 @@ nav {
 }
 
 .home__heading--subtitle {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
     font-size: 2rem;
     color: #6d6a7c;
 }
@@ -245,6 +245,7 @@ nav {
 
 .about__headings--subtitle {
     color: #6d6a7c;
+    font-size: 1.125rem;
 }
 
 .about__up img {
@@ -272,7 +273,7 @@ nav {
 
 .description {
     color: #6d6a7c;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .time {
@@ -327,6 +328,7 @@ nav {
 
 .skills__headings--subtitle {
     color: #6d6a7c;
+    font-size: 1.125rem;
 }
 
 .skills__box {
@@ -461,6 +463,7 @@ nav {
 
 .qualification__headings--subtitle {
     color: #6d6a7c;
+    font-size: 1.125rem;
 }
 
 .qualification__type {
@@ -674,6 +677,7 @@ which is the min-height of the box to 80px */
 
 .services__headings--subtitle {
     color: #6d6a7c;
+    font-size: 1.125rem;
 }
 
 .services__details {
@@ -769,7 +773,7 @@ so I am gonna keep it. */
 
 .portfolio__headings--subtitle {
     color: #6d6a7c;
-    font-size: 1.2rem;
+    font-size: 1.125rem;
 }
 
 .portfolio__content {
@@ -843,6 +847,7 @@ so I am gonna keep it. */
 
 .testimonial__headings--subtitle {
     color: #6d6a7c;
+    font-size: 1.125rem;
 }
 
 .about__info {
@@ -958,6 +963,7 @@ so I am gonna keep it. */
 
 .contacteme__headings--subtitle {
     color: #6d6a7c;
+    font-size: 1.125rem;
 }
 
 .callme, .emailme, .mylocation {
