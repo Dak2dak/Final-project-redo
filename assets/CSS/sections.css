@@ -1,0 +1,1019 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 1rem 1.5rem;
+}
+
+section{
+    padding: 0 1.5rem;
+}
+/* ================================================================================ */
+
+
+
+
+/* ================================================================================ */
+
+/* Start header */
+
+.main-menu {
+    display: none;
+    /* color: #0E2431; */
+}
+
+.short-menu {
+    color: #6d6a7c;
+}
+
+.short-menu ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0.5rem;
+}
+
+.left-side {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.right-side {
+    display: flex;
+    gap: .2rem;
+    font-weight: 600;
+}
+
+.short-menu ul li {
+    list-style: none;
+}
+
+nav {
+    border: 2px solid;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.user-icon-svg,
+.briefcase-icon {
+    width: 25px;
+    fill: #2d2b2e;
+}
+
+.cross-icon, .home-icon-svg {
+    width: 25px;
+    fill: #6d6a7c;
+}
+
+.cv-icon, .photo-icon-svg {
+    width: 20px;
+    fill: #2d2b2e;
+}
+
+.close-button{
+    text-align: right;
+}
+
+.menu-line-1, .menu-line-2  {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem .5rem;
+    margin: 1.5rem 0;
+}
+
+.menu-line-1 li, .menu-line-2 li {
+    list-style: none;
+}
+
+.menu-item {
+    color: #6d6a7c;
+    font-weight: 600;
+    text-align: center;
+    width: 85px;
+}
+
+/* dark mode div */
+.toggle {
+    width: 50px;
+    height: 30px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.label {
+    display: flex;
+    cursor: pointer;
+}
+
+.sun-icon {
+    width: 24px;
+    visibility: hidden;
+}
+
+.fa-moon {
+    padding-top: 3px;
+}
+
+/* dark mode */
+.dark {
+    background-color: #0E2431;
+}
+
+.dark .new_project--down {
+    color: #0b1e29;
+}
+
+.dark footer {
+    background-color: #0b1e29;
+}
+
+/* End header */
+
+/* ================================================================================ */
+
+
+
+
+/* ================================================================================ */
+
+/* Start home section */
+
+.container__home {
+    padding: 2rem 0;
+    margin: 3rem 0;
+}
+
+.home__up--image {
+    display: flex;
+    justify-content:space-between;
+}
+
+.home__social--media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin-right: 3rem;
+}
+
+.github-icon,
+.dribble-icon,
+.linkedin-icon {
+    width: 30px;
+    fill: #6e57e0;
+}
+
+.home__blob {
+    width: 350px;
+    fill: #6e57e0;
+
+}
+
+.home__blob--img {
+    width: 190px;
+}
+
+.home__up--text {
+    margin: 2.5rem 0 3rem 0;
+}
+
+.home__heading--title {
+    margin: .8rem 0 .5rem 0;
+    font-size: 2.5rem;
+}
+
+.home__heading--subtitle {
+    margin-bottom: 1.5rem;
+    color: #6d6a7c;
+}
+
+.home__description {
+    color: #6d6a7c;
+    font-size: 1.042rem;
+}
+
+.home__down a {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 180px;
+    font-size: 1.2rem;
+    background-color: #6e57e0;
+    color: #fff;
+    border: none;
+}
+
+.home-icon {
+    fill: #fff;
+    width: 24px;
+}
+/* ================================================================================ */
+
+
+
+
+/* ================================================================================ */
+
+/* Start about section */
+
+.container__about {
+    row-gap: 1rem;
+}
+
+.about__up {
+    text-align: center;
+}
+
+.about__headings {
+    padding: 3rem 0;
+}
+
+.about__headings--subtitle {
+    color: #6d6a7c;
+}
+
+.about__up img {
+    width: 280px;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.about__description {
+    text-align: center;
+    color: #6d6a7c;
+    font-size: 1.042rem;
+}
+
+.about__down {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 3.5rem 0;
+}
+
+.work__details {
+    text-align: center;
+}
+
+.description {
+    color: #6d6a7c;
+    font-size: 1.042rem;
+}
+
+.time {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.about__button {
+    display: flex;
+    justify-content: center;
+    margin: 1.8rem 0;
+}
+
+.about__button:hover{
+    box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
+
+.about__button a {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 200px;
+    font-size: 1.2rem;
+    background-color: #6e57e0;
+    border: none;
+    color: #fff;
+}
+
+.download {
+    width: 24px;
+    fill: #fff;
+}
+/* ================================================================================ */
+
+
+
+
+/* ================================================================================ */
+
+/* Start skills section */
+
+.skills__headings {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 1.5rem 0;
+}
+
+.skills__headings--subtitle {
+    color: #6d6a7c;
+}
+
+.skills__box {
+    margin: 3rem 0;
+    padding: 1rem 0;
+}
+
+.box__headings--subtitle {
+    color: #6d6a7c;
+}
+
+.skills__details{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.box__right {
+    display: flex; 
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.swatchbook,
+.server,
+.brackets {
+    width: 30px;
+    fill: #6e57e0;
+}
+
+.icon__box {
+    padding-top: 1rem;
+}
+
+.progression__bar--box {
+    margin: 1.2rem 0;
+    margin-left: 2.8rem;
+}
+
+.progression__bar--text {
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+    justify-content: space-between;
+}
+
+.progression__bar--text> .percentage {
+    color: #6d6a7c;
+}
+
+.progression__bar,
+.colored--bar {
+    border: none;
+    height: 8px;
+    border-radius: 5px;
+}
+
+.progression__bar {
+    background-color: rgb(188, 168, 207);
+}
+
+.colored--bar {
+    background-color: #6e57e0;
+}
+
+.html-bar, .node-bar, .php-bar,
+.firebase-bar, .figma-bar, .react-bar,
+.javascript-bar, .css-bar, .python-bar,
+.sketch-bar, .photoshop-bar {
+    display: block;
+}
+
+.html-bar, .figma-bar, .firebase-bar {
+    width: 90%;
+}
+
+.css-bar, .php-bar {
+    width: 80%;
+}
+
+.javascript-bar {
+    width: 60%;
+}
+
+.react-bar, .sketch-bar, .photoshop-bar {
+    width: 85%;
+}
+
+.node-bar {
+    width: 70%;
+}
+
+.python-bar {
+    width: 55%;
+}
+/* ================================================================================ */
+
+
+
+
+/* ================================================================================ */
+
+/* Start qualification section */
+
+.container__qualification {
+    margin: 3rem 0;
+    padding: 3rem 0 3rem 1.5rem;
+}
+
+.qualification__headings {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.qualification__headings--subtitle {
+    color: #6d6a7c;
+}
+
+.qualification__type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.education a, .work a {
+    display: flex;
+    text-decoration: none;
+}
+
+.education--title {
+    padding-right: 1.2rem;
+    padding-left: .5rem;
+    color: #6d6a7c;
+}
+
+.work--title {
+    padding-left: .5rem;
+    color: #6d6a7c;
+}
+
+.education--title:hover {
+    cursor: pointer;
+    color: #6e57e0;
+}
+
+.work--title:hover {
+    cursor: pointer;
+    color: #6e57e0;
+}
+
+.work-icon, .graduation-icon {
+    font-size: 30px;
+    color: #6d6a7c;
+}
+
+.graduation-icon {
+    margin-top: 3px;
+}
+
+.graduation-icon:hover {
+    cursor: pointer;
+    color: #6e57e0;
+}
+
+.work-icon:hover {
+    cursor: pointer;
+    color: #6e57e0;
+}
+
+.container__items {
+    width: 100%;
+    margin: 0 1.5rem;
+    position: relative;
+    padding: 80px 25px;
+}
+
+#container-2 {
+    display: none;
+}
+
+.timeline__line--education {
+    height: 450px;
+    width: 2px;
+    margin: 0 auto;
+    color: #BCBCBC;
+    background-color: #BCBCBC;
+    border: 2px solid;
+}
+
+/* the work line has only three rounds on it */
+.timeline__line--work {
+    height: 300px;
+    width: 2px;
+    margin: 0 auto;
+    color: #BCBCBC;
+    background-color: #BCBCBC;
+    border: 2px solid;
+}
+
+/* left 50% won't be ok due to margin 1.5rem set up on the container */
+.timeline__round {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #6e57e0;
+    position: absolute;
+    left: 44.5%;
+    transform: translateX(50%);
+}
+
+.round-1{
+    top: 80px;
+}
+/* Just remember the 80px margin you set up */
+
+.round-2{
+    top: 230px;
+}
+/* At this point, you just have to add 150px
+which is the min-height of the box to 80px */
+
+.round-3{
+    top: 380px;
+}
+/* 150px added to 230px */
+
+.round-4{
+    top: 520px;
+}
+/* 150px added to 380px */
+
+/* now, let's get boxes themselves */
+.items__info--title {
+    font-size: 1.2rem;
+}
+
+.items__info--subtitle {
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 1.8rem;
+    color: #6d6a7c;
+}
+
+.item__details {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    min-height: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* left box */
+.box-1 {
+    top: 80px;
+    left: calc(50% - 100px);
+}
+
+.box-2 {
+    top: 230px;
+    left: calc(50% + 150px);
+}
+
+/* left box */
+.box-3 {
+    top: 380px;
+    left: calc(50% - 100px);
+}
+
+.box-4 {
+    top: 520px;
+    left: calc(50% + 150px);
+}
+
+/* left box */
+.box-5 {
+    top: 80px;
+    left: calc(50% - 100px);
+}
+
+.box-6 {
+    top: 230px;
+    left: calc(50% + 150px);
+}
+
+/* left box */
+.box-7 {
+    top: 380px;
+    left: calc(50% - 100px);
+}
+
+.period {
+    display: flex;
+    gap: 5px;
+    color: #6d6a7c;
+    font-size: 1.2rem;
+}
+
+.calendar {
+    width: 22px;
+    fill: #6d6a7c;
+}
+/* ================================================================================ */
+
+
+
+
+
+/* ================================================================================ */
+
+/* Start services section */
+
+.container__services {
+    padding: 3rem 0;
+}
+
+.services__headings {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: 2.5rem 0;
+}
+
+.services__headings--subtitle {
+    color: #6d6a7c;
+}
+
+.services__details {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.services__boxes {
+    width: 46%;
+    height: 40vh;
+    padding-left: 1rem;
+    padding-top: 6rem;
+    border: 1px #6d6a7c;
+    box-shadow: 0 0 12px -5px rgb(0 1 1 / 50%);
+}
+
+/* box-shadow: 0 0 12px -5px rgb(0 0 0 / 50%)  fits
+the original design, but I like mine
+[box-shadow: 2px 5px 12px #6d6a7c, with border: 1px solid #6d6a7c],
+so I am gonna keep it. */
+
+.services__boxes--down a {
+    text-decoration: none;
+    color: #6e57e0;
+}
+
+.services__boxes--down i {
+    margin-left: 7px;
+}
+
+.services__boxes--up i {
+    color: #6e57e0;
+}
+
+.boxes__text {
+    margin: 1.5rem 0 2rem 0;
+    color: #6d6a7c;
+}
+
+
+
+/* Gotta find a way to pop up this box */
+.popup__message {
+    display: none;
+    position: absolute;
+    width: 90%;
+    height: 330px;
+    border-radius: 10px;
+    border: 1px #6d6a7c;
+    color: #6d6a7c;
+    padding: 1.5rem 1rem;
+    box-shadow: 0 0 10px grey;
+}
+
+.popup__headings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list__item {
+    margin-top: 2rem;
+}
+
+.list__item ul li {
+    list-style: none;
+    margin-top: 1rem;
+}
+/* ================================================================================ */
+
+
+
+
+
+/* ================================================================================ */
+
+/* Start portfolio section */
+
+.container__portfolio {
+    padding: 3rem 0;
+    margin: 1.5rem 0;
+}
+
+.portfolio__headings {
+    text-align: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.portfolio__headings--subtitle {
+    color: #6d6a7c;
+}
+
+.portfolio__content {
+    padding-left: 1rem;
+}
+
+.portfolio__swiper img {
+    border-radius: 10px;
+    width: 290px;
+}
+
+.portfolio__description--title {
+    margin-top: 1rem;
+}
+
+.portfolio__description--text {
+    color: #6d6a7c;
+    margin-top: 1rem;
+}
+
+.portfolio__button {
+    margin: 1.8rem 0;
+}
+
+.portfolio__button:hover{
+    box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  }
+
+.portfolio__button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    width: 120px;
+    font-size: 1.2rem;
+    background-color: #6e57e0;
+    border: none;
+    color: #fff;
+}
+/* ================================================================================ */
+
+
+
+
+
+/* ================================================================================ */
+
+/* Start testimonial section */
+
+.container__testimonial {
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+
+.testimonial__headings {
+    text-align: center;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial__headings--subtitle {
+    color: #6d6a7c;
+}
+
+.about__info {
+    display: flex;
+    justify-content: space-evenly;
+    gap: .5rem;
+}
+
+.client__name {
+    color: #6d6a7c;
+}
+
+.about__info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.client__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial__description {
+    color: #6d6a7c;
+    margin-top: 1rem;
+}
+/* ================================================================================ */
+
+
+
+
+/* ================================================================================ */
+
+/* Start contact me section */
+
+.container__contactme {
+    padding-bottom: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.contactme__headings {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 1.5rem 0;
+}
+
+.contacteme__headings--subtitle {
+    color: #6d6a7c;
+}
+
+.callme, .emailme, .mylocation {
+    margin-bottom: 2.5rem;
+    display: flex;
+    gap: .5rem;
+}
+
+.locateme__message, .emailme__message, .callme__message {
+    color: #6d6a7c;
+}
+
+.phone-icon,
+.location-icon {
+    width: 30px;
+    fill: #5a3ee9;
+}
+
+.envelope-icon {
+    width: 24px;
+    fill: #5a3ee9;
+}
+
+.callme__title, 
+.emailme__title, 
+.locateme__title {
+    margin-bottom: .5rem;
+}
+
+.container__user {
+    margin: 3rem 0 1.5rem 0;
+}
+
+.container__user input, textarea {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    background-color: #7562E010;
+    padding-left: 1rem;
+    font-size: 18px;
+}
+
+
+.container__user input {
+    height: 90px;
+    padding-bottom: 1.5rem;
+}
+
+.container__user textarea {
+    height: 250px;
+    padding-top: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactme__btn a {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 190px;
+    font-size: 1.2rem;
+    background-color: #6e57e0;
+    color: #fff;
+    border: none;
+}
+/* ================================================================================ */
+
+
+
+
+/* ================================================================================ */
+
+/* Start new project section */
+
+.new__project{
+    padding: 0;
+}
+
+.container__new--project {
+    text-align: center;
+    background-color: #6e57e0;
+    padding-top: 3rem;
+}
+
+.message__text {
+    margin: 3rem  0 2.5rem 0;
+    color: #fff;
+}
+
+.project__button {
+    display: flex;
+    justify-content: center;
+}
+
+.project__button:hover{
+    box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  }
+
+.btn {
+    text-decoration: none;
+    padding: 1.2rem .2rem;
+    border-radius: 10px;
+    border: solid wheat;
+    background-color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 1.2rem;
+    width: 180px;
+    color: #6d6a7c;
+}
+
+.send-icon {
+    width: 24px;
+    fill: #6d6a7c;
+}
+
+.new__project--down {
+    margin-top: 3rem;
+}
+/* ================================================================================ */
+
+
+@media screen and (min-width: 768px) {
+    
+
+
+    .section{
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    /* Home section */
+
+    .home__up--blob {
+        position: relative;
+        right: 25%;
+    }
+
+    .home__blob {
+        width: 298px;
+        padding-top: 3.5rem;
+    }
+
+    .home__up--text {
+        position: absolute;
+        top: 12%;
+        left: 10%;
+        width: 290px;
+        height: 235px;
+        line-height: 1.8rem;
+        font-size: 1.2rem;
+    }
+
+    .home__down {
+        position: absolute;
+        left: 10%;
+        bottom: 60%;
+    }
+
+    .home__heading--title {
+        margin-bottom: 1.2rem;
+    }
+
+    /* About section */
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
