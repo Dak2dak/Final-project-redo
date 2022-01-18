@@ -852,15 +852,66 @@ so I am gonna keep it. */
 }
 
 .testimonial__description {
-    width: 100%;
+    display: block;
     color: #6d6a7c;
     font-size: 1.2rem;
     margin-top: 1rem;
 }
 /* ================================================================================ */
 
+/* Start new project section */
 
+.new__project{
+    padding: 0;
+}
 
+.container__new--project {
+    text-align: center;
+    background-color: #6e57e0;
+    padding-top: 3rem;
+}
+
+.message__text {
+    margin: 3rem  0 2.5rem 0;
+    color: #fff;
+}
+
+.project__button {
+    display: flex;
+    justify-content: center;
+}
+
+.project__button:hover{
+    box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  }
+
+.btn {
+    text-decoration: none;
+    padding: 1.2rem .2rem;
+    border-radius: 10px;
+    border: solid wheat;
+    background-color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 1.2rem;
+    width: 180px;
+    color: #6d6a7c;
+}
+
+.send-icon {
+    width: 24px;
+    fill: #6d6a7c;
+}
+
+.new__project--down {
+    margin-top: 3rem;
+}
+
+.new__project--down img {
+    width: 100%;
+}
 
 /* ================================================================================ */
 
@@ -951,55 +1002,7 @@ so I am gonna keep it. */
 
 /* ================================================================================ */
 
-/* Start new project section */
 
-.new__project{
-    padding: 0;
-}
-
-.container__new--project {
-    text-align: center;
-    background-color: #6e57e0;
-    padding-top: 3rem;
-}
-
-.message__text {
-    margin: 3rem  0 2.5rem 0;
-    color: #fff;
-}
-
-.project__button {
-    display: flex;
-    justify-content: center;
-}
-
-.project__button:hover{
-    box-shadow: 0 10px 36px rgba(0,0,0,.15);
-  }
-
-.btn {
-    text-decoration: none;
-    padding: 1.2rem .2rem;
-    border-radius: 10px;
-    border: solid wheat;
-    background-color: #fff;
-    border: none;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    font-size: 1.2rem;
-    width: 180px;
-    color: #6d6a7c;
-}
-
-.send-icon {
-    width: 24px;
-    fill: #6d6a7c;
-}
-
-.new__project--down {
-    margin-top: 3rem;
-}
 /* ================================================================================ */
 
 
