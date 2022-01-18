@@ -744,6 +744,7 @@ so I am gonna keep it. */
 .container__portfolio {
     padding: 3rem 0;
     margin: 1.5rem 0;
+    text-align: center;
 }
 
 .portfolio__headings {
@@ -753,6 +754,7 @@ so I am gonna keep it. */
 
 .portfolio__headings--subtitle {
     color: #6d6a7c;
+    font-size: 1.2rem;
 }
 
 .portfolio__content {
@@ -766,9 +768,11 @@ so I am gonna keep it. */
 
 .portfolio__description--title {
     margin-top: 1rem;
+    font-size: 1.8rem;
 }
 
 .portfolio__description--text {
+    font-size: 1.5rem;
     color: #6d6a7c;
     margin-top: 1rem;
 }
@@ -825,6 +829,11 @@ so I am gonna keep it. */
 
 .client__name {
     color: #6d6a7c;
+    font-size: 1.2rem;
+}
+
+.client__title {
+    font-size: 1.2rem;
 }
 
 .about__info img {
@@ -838,8 +847,13 @@ so I am gonna keep it. */
     justify-content: space-between;
 }
 
+.fa-star {
+    color: #5a3ee9;
+}
+
 .testimonial__description {
     color: #6d6a7c;
+    font-size: 1.5rem;
     margin-top: 1rem;
 }
 /* ================================================================================ */
@@ -992,14 +1006,14 @@ so I am gonna keep it. */
     
 
 
-    /* .section{
+    .section{
         padding-top: 4rem;
         padding-bottom: 3rem;
-    } */
+    }
 
     /* Home section */
 
-    /* .home__up--blob {
+    .home__up--blob {
         margin-right: 2rem;
     }
 
@@ -1022,15 +1036,15 @@ so I am gonna keep it. */
         position: relative;
         left: 15%;
         bottom: 5%;
-    } */
+    }
 
     /* .home__up--text {
         margin-bottom: 1.5rem;
     } */
 
-    /* .home__heading--title {
+    .home__heading--title {
         margin-bottom: 1.2rem;
-    } */
+    }
 
     
 }
