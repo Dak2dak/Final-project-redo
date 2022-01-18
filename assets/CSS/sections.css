@@ -256,7 +256,7 @@ nav {
 .about__description {
     text-align: center;
     color: #6d6a7c;
-    font-size: 1.042rem;
+    font-size: 1.5rem;
 }
 
 .about__down {
@@ -992,14 +992,14 @@ so I am gonna keep it. */
     
 
 
-    .section{
+    /* .section{
         padding-top: 4rem;
         padding-bottom: 3rem;
-    }
+    } */
 
     /* Home section */
 
-    .home__up--blob {
+    /* .home__up--blob {
         margin-right: 2rem;
     }
 
@@ -1022,17 +1022,17 @@ so I am gonna keep it. */
         position: relative;
         left: 15%;
         bottom: 5%;
-    }
+    } */
 
     /* .home__up--text {
         margin-bottom: 1.5rem;
     } */
 
-    .home__heading--title {
+    /* .home__heading--title {
         margin-bottom: 1.2rem;
-    }
+    } */
 
-    /* About section */
+    
 }
 
 @media screen and (min-width: 1024px) {
