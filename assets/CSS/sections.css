@@ -960,7 +960,14 @@ so I am gonna keep it. */
 .callme__title, 
 .emailme__title, 
 .locateme__title {
+    font-size: 1.2rem;
     margin-bottom: .5rem;
+}
+
+.phone__number, 
+.user__email, 
+.user__location {
+    font-size: 1.2rem;
 }
 
 .container__user {
