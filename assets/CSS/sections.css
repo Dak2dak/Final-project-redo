@@ -983,7 +983,6 @@ so I am gonna keep it. */
 
     .home__up--blob {
         position: relative;
-        /* right: 5%; */
     }
 
     .home__blob {
@@ -993,7 +992,7 @@ so I am gonna keep it. */
 
     .home__up--text {
         position: absolute;
-        top: 65%;
+        top: 60%;
         left: 15%;
         width: 290px;
         height: 235px;
