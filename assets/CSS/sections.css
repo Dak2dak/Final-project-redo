@@ -812,6 +812,7 @@ so I am gonna keep it. */
 
 .testimonial__headings {
     text-align: center;
+    margin-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 2rem;
 }
@@ -851,6 +852,7 @@ so I am gonna keep it. */
 }
 
 .testimonial__description {
+    width: 100%;
     color: #6d6a7c;
     font-size: 1.2rem;
     margin-top: 1rem;
