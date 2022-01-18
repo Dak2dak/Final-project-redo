@@ -982,7 +982,7 @@ so I am gonna keep it. */
     /* Home section */
 
     .home__up--blob {
-        margin-right: 3rem;
+        margin-right: 2rem;
     }
 
     .home__blob {
@@ -1003,7 +1003,7 @@ so I am gonna keep it. */
     .home__down {
         position: absolute;
         left: 15%;
-        top: 45%;
+        top: -45%;
     }
 
     .home__heading--title {
