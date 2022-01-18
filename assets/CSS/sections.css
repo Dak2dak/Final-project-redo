@@ -321,6 +321,10 @@ nav {
     padding: 1.5rem 0;
 }
 
+.skills__headings--title {
+    font-size: 2rem;
+}
+
 .skills__headings--subtitle {
     color: #6d6a7c;
 }
@@ -449,6 +453,10 @@ nav {
 .qualification__headings {
     text-align: center;
     margin: 3rem 0;
+}
+
+.qualification__headings--title {
+    font-size: 2rem;
 }
 
 .qualification__headings--subtitle {
@@ -660,6 +668,10 @@ which is the min-height of the box to 80px */
     padding: 2.5rem 0;
 }
 
+.services__headings--title {
+    font-size: 2rem;
+}
+
 .services__headings--subtitle {
     color: #6d6a7c;
 }
@@ -751,6 +763,10 @@ so I am gonna keep it. */
     margin: 1rem 0 3rem 0;
 }
 
+.portfolio__headings--title {
+    font-size: 2rem;
+}
+
 .portfolio__headings--subtitle {
     color: #6d6a7c;
     font-size: 1.2rem;
@@ -819,6 +835,10 @@ so I am gonna keep it. */
     margin-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 2rem;
+}
+
+.testimonial__headings--title {
+    font-size: 2rem;
 }
 
 .testimonial__headings--subtitle {
@@ -930,6 +950,10 @@ so I am gonna keep it. */
     text-align: center;
     margin: 3rem 0;
     padding: 1.5rem 0;
+}
+
+.contacteme__headings--title {
+    font-size: 2rem;
 }
 
 .contacteme__headings--subtitle {
