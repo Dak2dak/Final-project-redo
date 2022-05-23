@@ -196,6 +196,7 @@ nav {
 .home__description {
     color: #6d6a7c;
     font-size: 1.2rem;
+    width: 430px;
 }
 
 .home__down a {
