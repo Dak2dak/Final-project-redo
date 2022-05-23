@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+:root {
+    --swiper-theme-color: #000 !important;
+}
+
 html {
     font-family: 'Poppins', sans-serif;
 }
@@ -18,13 +22,11 @@ section{
     padding: 0 1.5rem;
 }
 /* ================================================================================ */
-
-
-
-
-/* ================================================================================ */
-
 /* Start header */
+
+header {
+    width: 430px;
+}
 
 .main-menu {
     display: none;
@@ -140,12 +142,6 @@ nav {
 /* End header */
 
 /* ================================================================================ */
-
-
-
-
-/* ================================================================================ */
-
 /* Start home section */
 
 .container__home {
@@ -163,7 +159,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    margin-right: 3rem;
 }
 
 .github-icon,
@@ -174,9 +169,8 @@ nav {
 }
 
 .home__blob {
-    width: 350px;
+    width: 310px;
     fill: #6e57e0;
-
 }
 
 .home__blob--img {
@@ -201,6 +195,7 @@ nav {
 .home__description {
     color: #6d6a7c;
     font-size: 1.5rem;
+    width: 420px;
 }
 
 .home__down a {
@@ -219,16 +214,14 @@ nav {
     width: 24px;
 }
 /* ================================================================================ */
-
-
-
-
-/* ================================================================================ */
-
 /* Start about section */
 
 .container__about {
     row-gap: 1rem;
+    width: 430px;
+    /* There was something wrong with the layaout, 
+    and I didn't know how to solve the issue. 
+    That's why I set the width to 430px. */
 }
 
 .about__up {
@@ -281,11 +274,10 @@ nav {
     font-size: 25px;
 }
 
-
 .about__button {
     display: flex;
     justify-content: center;
-    margin: 1.8rem 0;
+    margin: 1rem 1.8rem 0;
 }
 
 .about__button:hover{
@@ -308,13 +300,11 @@ nav {
     fill: #fff;
 }
 /* ================================================================================ */
-
-
-
-
-/* ================================================================================ */
-
 /* Start skills section */
+
+.container__skills {
+    width: 430px;
+}
 
 .skills__headings {
     text-align: center;
@@ -436,19 +426,12 @@ nav {
     max-height: 250px;
 }
 
-
-
 /* ================================================================================ */
-
-
-
-
-/* ================================================================================ */
-
 /* Start qualification section */
 
 .container__qualification {
     margin: 3rem 0;
+    width: 430px;
     padding: 3rem 0 3rem 1.5rem;
 }
 
@@ -470,7 +453,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 .education a, .work a {
@@ -520,7 +503,6 @@ nav {
 
 .container__items {
     width: 100%;
-    margin: 0 1.5rem;
     position: relative;
     padding: 80px 25px;
 }
@@ -555,7 +537,7 @@ nav {
     border-radius: 50%;
     background-color: #6e57e0;
     position: absolute;
-    left: 44.5%;
+    left: 45%;
     transform: translateX(50%);
 }
 
@@ -652,17 +634,11 @@ which is the min-height of the box to 80px */
     fill: #6d6a7c;
 }
 /* ================================================================================ */
-
-
-
-
-
-/* ================================================================================ */
-
 /* Start services section */
 
 .container__services {
     padding: 3rem 0;
+    width: 430px;
 }
 
 .services__headings {
@@ -688,8 +664,8 @@ which is the min-height of the box to 80px */
 }
 
 .services__boxes {
-    width: 46%;
-    height: 40vh;
+    width: 48%;
+    height: 35vh;
     padding-left: 1rem;
     padding-top: 6rem;
     border: 1px #6d6a7c;
@@ -719,8 +695,6 @@ so I am gonna keep it. */
     color: #6d6a7c;
 }
 
-
-
 /* Gotta find a way to pop up this box */
 .popup__message {
     display: none;
@@ -748,18 +722,12 @@ so I am gonna keep it. */
     margin-top: 1rem;
 }
 /* ================================================================================ */
-
-
-
-
-
-/* ================================================================================ */
-
 /* Start portfolio section */
 
 .container__portfolio {
     padding: 3rem 0;
     margin: 1.5rem 0;
+    width: 430px;
 }
 
 .portfolio__headings {
@@ -780,11 +748,6 @@ so I am gonna keep it. */
     padding-left: 1rem;
 }
 
-.portfolio__swiper img {
-    border-radius: 10px;
-    width: 290px;
-}
-
 .portfolio__description--title {
     margin-top: 1rem;
     font-size: 1.8rem;
@@ -796,8 +759,8 @@ so I am gonna keep it. */
     margin-top: 1rem;
 }
 
-.portfolio__description--text p {
-    display: inline-block;
+.portfolio__description--text {
+    width: 70%;
 }
 
 .portfolio__button {
@@ -806,7 +769,7 @@ so I am gonna keep it. */
 
 .portfolio__button:hover{
     box-shadow: 0 10px 36px rgba(0,0,0,.15);
-  }
+}
 
 .portfolio__button a {
     display: flex;
@@ -819,19 +782,33 @@ so I am gonna keep it. */
     border: none;
     color: #fff;
 }
+
+/* swiper css */
+.swiper {
+    width: 100%;
+}
+
+/* .swiper-slide {
+    
+} */
+
+.swiper-slide img {
+    display: block;
+    /* width: 100%; */
+    /* height: 100%; */
+    border-radius: 10px;
+    width: 290px;
+    object-fit: cover;
+}
+
+
 /* ================================================================================ */
-
-
-
-
-
-/* ================================================================================ */
-
 /* Start testimonial section */
 
 .container__testimonial {
     padding-bottom: 3rem;
     margin-bottom: 3rem;
+    width: 430px;
 }
 
 .testimonial__headings {
@@ -887,7 +864,6 @@ so I am gonna keep it. */
     margin-top: 1rem;
 }
 /* ================================================================================ */
-
 /* Start new project section */
 
 .new__project{
@@ -898,6 +874,7 @@ so I am gonna keep it. */
     text-align: center;
     background-color: #6e57e0;
     padding-top: 3rem;
+    width: 430px;
 }
 
 .message__text {
@@ -912,7 +889,7 @@ so I am gonna keep it. */
 
 .project__button:hover{
     box-shadow: 0 10px 36px rgba(0,0,0,.15);
-  }
+}
 
 .btn {
     text-decoration: none;
@@ -943,12 +920,12 @@ so I am gonna keep it. */
 }
 
 /* ================================================================================ */
-
 /* Start contact me section */
 
 .container__contactme {
     padding-bottom: 2.5rem;
     margin-bottom: 3rem;
+    width: 430px;
 }
 
 .contactme__headings {
@@ -1051,49 +1028,13 @@ so I am gonna keep it. */
     
 
 
-    .section{
-        padding-top: 4rem;
-        padding-bottom: 3rem;
-    }
-
-    /* Home section */
-
-    .home__up--blob {
-        margin-right: 2rem;
-    }
-
-    .home__blob {
-        width: 298px;
-        padding-top: 3.5rem;
-    }
-
-    .home__up--text {
-        position: absolute;
-        top: 50%;
-        left: 15%;
-        width: 290px;
-        height: 235px;
-        line-height: 1.8rem;
-        font-size: 1.2rem;
-    }
-
-    .home__down {
-        position: relative;
-        left: 15%;
-        bottom: 5%;
-    }
-
-    /* .home__up--text {
-        margin-bottom: 1.5rem;
-    } */
-
-    .home__heading--title {
-        margin-bottom: 1.2rem;
-    }
-
+    
     
 }
 
 @media screen and (min-width: 1024px) {
     
 }
+
+
+

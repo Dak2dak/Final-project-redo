@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/CSS/sections.css">
     <link rel="stylesheet" href="assets/CSS/footer.css">
 </head>
 <body>
     
-    <header> 
+    <header>
         <div class="main-menu">
             <nav>
                 <ul>
@@ -262,8 +263,12 @@
                     <div class="home__up--text">
                         <div class="home__heading">
                             <h1 class="home__heading--title">Hi, I am Alexa</h1>
-                            <h3 class="home__heading--subtitle">Front-end developer</h6>
-                            <p class="home__description">High level experience in web design and development knowledge, producing quality work.</p>
+                            <h3 class="home__heading--subtitle">Front-end developer</h6> 
+                            <div class="home__description">
+                                <span>High level experience in web design and </span>
+                                <span>development knowledge, producing quality </span>
+                                <span>work.</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -291,7 +296,7 @@
                         <span class="about__headings--subtitle">My introduction</span>
                     </div>
 
-                    <img src="/assets/images/about.jpg" alt="">
+                    <img src="/assets/images/about.jpg" alt="Oups!">
 
                     <div class="about__description">
                         <span>Web developer, with extensive knowledge</span>
@@ -329,7 +334,7 @@
                 </div>
 
                 <div class="about__button">
-                    <a class="btn" href="/assets/CV.pdf">
+                    <a class="btn" href="/assets/DAK2DAK-CV bleu.pdf">
                         Download CV
                         <svg class="download" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path d="M8.29,13.29a1,1,0,0,0,0,1.42l3,3a1,1,0,0,0,1.42,
@@ -352,8 +357,6 @@
                     <h1 class="skills__headings--title">Skills</h1>
                     <span class="skills__headings--subtitle">My technical level</span>
                 </div>
-
-
 
                 <div class="skills">
                     <div class="skills__box">
@@ -913,66 +916,80 @@
                     <span class="portfolio__headings--subtitle">Most recent work</span>
                 </div>
 
-                <div class="portfolio__content">
-                    <div class="portfolio__swiper">
-                        <img src="/assets/images/portfolio1.jpg" alt="">
-
-                        <div class="portfolio__description">
-                            <h3 class="portfolio__description--title">Modern Website</h3>
-                            <div class="portfolio__description--text">
-                                <p>Wesbsite adaptable to all devices.</p>
-                                <p>with ui components and animated</p>
-                                <p>interactions.</p>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <div class="portfolio__content swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="portfolio__swiper swiper-slide">
+                            <img src="/assets/images/portfolio1.jpg" alt="">
+    
+                            <div class="portfolio__description">
+                                <h3 class="portfolio__description--title">Modern Website</h3>
+                                <div class="portfolio__description--text">
+                                    <span>Wesbsite adaptable to all devices.</span>
+                                    <br>
+                                    <span>with ui components and animated</span>
+                                    <br>
+                                    <span>interactions.</span>
+                                </div>
+                            </div>
+    
+                            <div class="portfolio__button">
+                                <a class="btn" href="">
+                                    Demo
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
                             </div>
                         </div>
-
-                        <div class="portfolio__button">
-                            <a class="btn" href="">
-                                Demo
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
+    
+                        <div class="portfolio__swiper swiper-slide">
+                            <img src="/assets/images/portfolio2.jpg" alt="">
+    
+                            <div class="portfolio__description">
+                                <h3 class="portfolio__description--title">Brand Design</h3>
+                                <div class="portfolio__description--text">
+                                    <span>Wesbsite adaptable to all devices.</span>
+                                    <br>
+                                    <span>with ui components and animated</span>
+                                    <br>
+                                    <span>interactions.</span>
+                                </div>
+                            </div>
+    
+                            <div class="portfolio__button">
+                                <a class="btn" href="">
+                                    Demo
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="portfolio__swiper swiper-slide">
+                            <img src="/assets/images/portfolio3.jpg" alt="">
+    
+                            <div class="portfolio__description">
+                                <h3 class="portfolio__description--title">Online Store</h3>
+                                <div class="portfolio__description--text">
+                                    <span>Wesbsite adaptable to all devices.</span>
+                                    <br>
+                                    <span>with ui components and animated</span>
+                                    <br>
+                                    <span>interactions.</span>
+                                </div>
+                            </div>
+    
+                            <div class="portfolio__button">
+                                <a class="btn" href="">
+                                    Demo
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="portfolio__swiper">
-                        <img src="/assets/images/portfolio2.jpg" alt="">
-
-                        <div class="portfolio__description">
-                            <h3 class="portfolio__description--title">Brand Design</h3>
-                            <div class="portfolio__description--text">
-                                <p>Wesbsite adaptable to all devices.</p>
-                                <p>with ui components and animated</p>
-                                <p>interactions.</p>
-                            </div>
-                        </div>
-
-                        <div class="portfolio__button">
-                            <a class="btn" href="">
-                                Demo
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="portfolio__swiper">
-                        <img src="/assets/images/portfolio3.jpg" alt="">
-
-                        <div class="portfolio__description">
-                            <h3 class="portfolio__description--title">Online Store</h3>
-                            <div class="portfolio__description--text">
-                                <p>Wesbsite adaptable to all devices.</p>
-                                <p>with ui components and animated</p>
-                                <p>interactions.</p>
-                            </div>
-                        </div>
-
-                        <div class="portfolio__button">
-                            <a class="btn" href="">
-                                Demo
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
+                    <!-- navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </section>
@@ -1251,6 +1268,10 @@
 
 
     <script src="./assets/JS/main.js"></script>
+    <!-- Let's check if this is necessary -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Swiper CDN -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./assets/JS/sliders"></script>
     <script src="./assets/JS/darkmode.js"></script>
 </body>

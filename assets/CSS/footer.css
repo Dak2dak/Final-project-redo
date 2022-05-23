@@ -1,9 +1,7 @@
-*{
-    box-sizing: border-box;
-}
 
 #footer {
     background-color: #6e57e0;
+    width: 430px;
     color: #fff;
 }
 
