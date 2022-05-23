@@ -147,12 +147,12 @@ nav {
 .container__home {
     padding: 2rem 0;
     margin: 3rem 0;
-    gap: 1.5rem;
 }
 
 .home__up--image {
     display: flex;
     justify-content:space-between;
+    gap: 1.5rem;
 }
 
 .home__social--media {
@@ -188,8 +188,8 @@ nav {
 }
 
 .home__heading--subtitle {
-    margin-bottom: 0.5rem;
-    font-size: 2rem;
+    margin-bottom: 1.3rem;
+    font-size: 1.2rem;
     color: #6d6a7c;
 }
 
