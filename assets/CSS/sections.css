@@ -24,11 +24,9 @@ section{
 /* ================================================================================ */
 /* Start header */
 header {
-    padding: 1rem 1.5rem 0 3rem;
+    padding: 1rem 3rem;
     width: 550px;
-    border: 3px solid red;
 }
-
 
 .main-menu {
     display: none;
@@ -43,8 +41,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 0;
-    border: 2px solid;
-    width: 100%;
 }
 
 .left-side {
@@ -122,12 +118,13 @@ nav {
 }
 
 .sun-icon {
-    width: 24px;
+    width: 28px;
     visibility: hidden;
 }
 
 .fa-moon {
     padding-top: 3px;
+    font-size: 28px;
 }
 
 /* dark mode */
