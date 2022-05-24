@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.5rem 0 3rem;
 }
 
 section{
@@ -44,7 +44,8 @@ header {
 .short-menu ul {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 0.5rem;
+    padding: 1.5rem 0;
+    border: 2px solid;
 }
 
 .left-side {
