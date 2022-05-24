@@ -873,9 +873,13 @@ so I am gonna keep it. */
 
 .container__new--project {
     text-align: center;
+    padding-top: 3rem;
+    width: 100%;
+}
+
+.new__project--up {
     background-color: #6e57e0;
     padding-top: 3rem;
-    width: 430px;
 }
 
 .message__text {
@@ -886,6 +890,7 @@ so I am gonna keep it. */
 .project__button {
     display: flex;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .project__button:hover{
@@ -912,12 +917,9 @@ so I am gonna keep it. */
     fill: #6d6a7c;
 }
 
-.new__project--down {
-    margin-top: 3rem;
-}
-
 .new__project--down img {
     width: 100%;
+    background-color: #6e57e0;
 }
 
 /* ================================================================================ */
