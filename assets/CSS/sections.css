@@ -44,7 +44,7 @@ header {
 }
 
 .left-side {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
@@ -124,7 +124,7 @@ nav {
 
 .fa-moon {
     padding-top: 3px;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 /* dark mode */
