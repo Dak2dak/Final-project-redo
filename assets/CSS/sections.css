@@ -896,6 +896,8 @@ so I am gonna keep it. */
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: solid;
+    border-color: #6e57e0;
 }
 
 .message__text {
@@ -939,7 +941,6 @@ so I am gonna keep it. */
 
 .new__project--down {
     outline: none;
-    border: solid;
     border-color: #6e57e0;
 }
 
