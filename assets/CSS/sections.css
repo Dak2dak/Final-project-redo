@@ -140,7 +140,6 @@ nav {
     background-color: #0b1e29;
 }
 
-/* End header */
 
 /* ================================================================================ */
 /* Start home section */
@@ -153,7 +152,6 @@ nav {
 .home__up--image {
     display: flex;
     justify-content:space-between;
-    gap: 1.5rem;
 }
 
 .home__social--media {
