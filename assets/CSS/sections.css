@@ -873,6 +873,10 @@ so I am gonna keep it. */
     width: 100%;
 }
 
+body {
+    border: 2px solid;
+}
+
 .container__new--project {
     text-align: center;
     padding-top: 3rem;
