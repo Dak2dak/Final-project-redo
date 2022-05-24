@@ -730,7 +730,6 @@ so I am gonna keep it. */
     padding: 3rem 0;
     margin: 1.5rem 0;
     width: 100%;
-    border: solid;
 }
 
 .portfolio__headings {
@@ -752,7 +751,7 @@ so I am gonna keep it. */
 }
 
 .portfolio__description--title {
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 1.8rem;
     margin-left: 1rem;
 
