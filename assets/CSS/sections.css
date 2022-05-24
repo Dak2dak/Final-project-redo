@@ -151,7 +151,7 @@ nav {
 
 .home__up--image {
     display: flex;
-    justify-content:center;
+    justify-content: flex-start;
     gap: 3rem;
 }
 
