@@ -729,8 +729,7 @@ so I am gonna keep it. */
 .container__portfolio {
     padding: 3rem 0;
     margin: 1.5rem 0;
-    width: 430px;
-    border: 3px solid red;
+    width: 550px;
 }
 
 .portfolio__headings {
@@ -770,7 +769,8 @@ so I am gonna keep it. */
 }
 
 .portfolio__button {
-    margin: 1.8rem 0;
+    margin: 1.8rem 0 1.8rem 1rem;
+    border: solid;
 }
 
 .portfolio__button:hover{
