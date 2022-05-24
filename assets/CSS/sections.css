@@ -873,6 +873,11 @@ so I am gonna keep it. */
     width: 100%;
 }
 
+body {
+    width: 450px;
+    border: solid;
+}
+
 .container__new--project {
     text-align: center;
     padding-top: 3rem;
@@ -1033,7 +1038,7 @@ so I am gonna keep it. */
     
 
     body {
-        border: 2px solid;
+        border: 5px solid red;
     }
     
     
@@ -1041,6 +1046,11 @@ so I am gonna keep it. */
 
 @media screen and (min-width: 992px) {
     
+
+    body {
+        border: 5px solid green;
+    }
+
 }
 
 
