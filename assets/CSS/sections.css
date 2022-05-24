@@ -50,7 +50,7 @@ header {
 
 .right-side {
     display: flex;
-    gap: .2rem;
+    gap: .5rem;
     font-weight: 600;
 }
 
@@ -123,6 +123,7 @@ nav {
 }
 
 .fa-moon {
+    transform: rotate(-35deg);
     padding-top: 3px;
     font-size: 26px;
 }
