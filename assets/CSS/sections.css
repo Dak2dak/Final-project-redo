@@ -802,9 +802,10 @@ so I am gonna keep it. */
 .swiper-slide img {
     display: block;
     border-radius: 10px;
-    width: 400px;
+    width: 350px;
     object-fit: cover;
     margin-left: 2rem;
+    margin-right: 1rem;
 }
 
 
