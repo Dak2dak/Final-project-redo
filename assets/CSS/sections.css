@@ -14,12 +14,16 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    width: 550px;
+}
+
 header {
     padding: 1rem 1.5rem;
 }
 
 section{
-    padding: 0 1.5rem;
+    padding: 0 1.5rem 0 2rem;
 }
 /* ================================================================================ */
 /* Start header */
@@ -869,13 +873,7 @@ so I am gonna keep it. */
 
 .new__project{
     padding: 0;
-    border: 2px solid;
     width: 100%;
-}
-
-body {
-    width: 550px;
-    border: solid;
 }
 
 .container__new--project {
@@ -887,6 +885,7 @@ body {
 .new__project--up {
     background-color: #6e57e0;
     padding-top: 3rem;
+    outline: none;
 }
 
 .message__text {
@@ -922,6 +921,11 @@ body {
 .send-icon {
     width: 24px;
     fill: #6d6a7c;
+}
+
+.new__project--down {
+    outline: none;
+    border: none;
 }
 
 .new__project--down img {
