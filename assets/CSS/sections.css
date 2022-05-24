@@ -151,7 +151,8 @@ nav {
 
 .home__up--image {
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
+    gap: 3rem;
 }
 
 .home__social--media {
