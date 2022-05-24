@@ -939,6 +939,7 @@ so I am gonna keep it. */
 
 .new__project--down {
     outline: none;
+    border: solid;
     border-color: #6e57e0;
 }
 
