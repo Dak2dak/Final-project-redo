@@ -808,6 +808,11 @@ so I am gonna keep it. */
     margin-right: 1rem;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+    font-size: 16px;
+}
+
 
 /* ================================================================================ */
 /* Start testimonial section */
