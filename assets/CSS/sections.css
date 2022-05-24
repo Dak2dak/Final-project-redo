@@ -18,21 +18,17 @@ body {
     width: 550px;
 }
 
-header {
-    padding: 1rem 1.5rem 0 3rem;
-    width: 100%;
-    border: 3px solid red;
-}
-
 section{
     padding: 0 1.5rem 0 3rem;
 }
 /* ================================================================================ */
 /* Start header */
-
 header {
-    width: 430px;
+    padding: 1rem 1.5rem 0 3rem;
+    width: 550px;
+    border: 3px solid red;
 }
+
 
 .main-menu {
     display: none;
