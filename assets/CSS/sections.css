@@ -6,23 +6,13 @@
     padding: 0;
 }
 
-:root {
-    --swiper-theme-color: #000 !important;
-}
-
 html {
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    width: 550px;
-}
 
-section{
-    padding: 0 1.5rem 0 3rem;
-}
-/* ================================================================================ */
-/* Start header */
+/*================ header styling ==================*/
+
 header {
     padding: 1rem 3rem;
     width: 550px;
@@ -142,81 +132,128 @@ nav {
 }
 
 
-/* ================================================================================ */
-/* Start home section */
 
-.container__home {
-    padding: 2rem 0;
-    margin: 3rem 0;
+/*================== home section styling =======================*/
+
+@media screen and (min-width: 992px) {
+    
+
+    .home_container {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 100px;
+        border: solid;
+        /* align-self: center;
+        justify-self: center; */
+    }
+
+
+
+    /* .social_media {
+        grid-column-start: 1;
+    } */
+
+    .blob_box {
+        grid-column-start: 3;
+        width: 300px;
+    }
+
+    .description {
+        width: 30%;
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .description .home_headings {
+        margin-bottom: 3rem;
+    }
+
+
 }
 
-.home__up--image {
-    display: flex;
-    justify-content: flex-start;
-    gap: 3rem;
+
+.home_container {
+    display: grid;
+    grid-template-columns: 50px 300px;
+    padding: 3rem 1.5rem;
 }
 
-.home__social--media {
+.social_media {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    align-items: center;
+    gap: 1.5rem;
+    margin-right: 2rem;
 }
 
-.github-icon,
-.dribble-icon,
-.linkedin-icon {
-    width: 40px;
+.social_media svg {
+    width: 27px;
     fill: #6e57e0;
 }
 
-.home__blob {
-    width: 310px;
+.blob_box {
+    padding-left: 1rem;
+}
+
+.blob_box svg {
     fill: #6e57e0;
 }
 
-.home__blob--img {
+.blob_box svg image {
     width: 190px;
 }
 
-.home__up--text {
-    margin: 2.5rem 0 3rem 0;
+.description {
+    width: 350px;
+    margin-top: 2rem;
 }
 
-.home__heading--title {
-    margin: .8rem 0 .5rem 0;
+.description .home_headings {
+    margin-bottom: 2rem;
+}
+
+.description .home_title {
     font-size: 3rem;
+    margin-bottom: .8rem;
+    color: #000 ;
 }
 
-.home__heading--subtitle {
-    margin-bottom: 1.3rem;
-    font-size: 1.6rem;
-    color: #6d6a7c;
+.description .home_subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
-.home__description {
-    color: #6d6a7c;
+.description .text {
     font-size: 1.2rem;
-    width: 430px;
+    line-height: 1.8rem;
 }
 
-.home__down a {
+.description svg {
+    width: 25px;
+    fill: #fff;
+}
+
+.description a {
+    text-decoration: none;
+    width: 160px;
+    padding: 1.2rem .5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #6e57e0;
+    text-align: center;
     display: flex;
     justify-content: center;
-    gap: 5px;
-    width: 180px;
+    align-items: center;
+    gap: .5rem;
     font-size: 1.2rem;
-    background-color: #6e57e0;
+    font-weight: 600;
     color: #fff;
-    border: none;
 }
 
-.home-icon {
-    fill: #fff;
-    width: 24px;
-}
-/* ================================================================================ */
-/* Start about section */
+
+
+/*=================== about section styling ====================*/
 
 .container__about {
     row-gap: 1rem;
@@ -1064,14 +1101,7 @@ so I am gonna keep it. */
     
 }
 
-@media screen and (min-width: 992px) {
-    
 
-    body {
-        border: 5px solid green;
-    }
-
-}
 
 
 
