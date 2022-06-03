@@ -263,7 +263,7 @@ nav {
 
 .description a {
     text-decoration: none;
-    width: 160px;
+    width: 180px;
     padding: 1.2rem .5rem;
     border-radius: 10px;
     border: none;
@@ -364,11 +364,16 @@ nav {
     color: #fff;
     margin-bottom: 1rem;
 }
+
+
+
+
+
 /* ================================================================================ */
 /* Start skills section */
 
 .container__skills {
-    width: 430px;
+        padding: 1.5rem 2.5rem;
 }
 
 .skills__headings {
@@ -491,13 +496,18 @@ nav {
     max-height: 250px;
 }
 
+
+
+
+
+
 /* ================================================================================ */
 /* Start qualification section */
 
 .container__qualification {
-    margin: 3rem 0;
-    width: 430px;
-    padding: 3rem 0 3rem 1.5rem;
+    padding: 1.5rem 2.5rem;
+    /* width: 430px; */
+    /* padding: 3rem 0 3rem 1.5rem; */
 }
 
 .qualification__headings {
@@ -698,11 +708,16 @@ which is the min-height of the box to 80px */
     width: 22px;
     fill: #6d6a7c;
 }
+
+
+
+
+
 /* ================================================================================ */
 /* Start services section */
 
 .container__services {
-    padding: 3rem 0;
+    padding: 3rem 2.5rem;
     width: 430px;
 }
 
