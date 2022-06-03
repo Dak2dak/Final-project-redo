@@ -185,6 +185,10 @@ nav {
         font-size: 1.2rem;
     }
 
+    .about_container .img_box img {
+        width: 290px;
+    }
+
 
 
 
@@ -287,7 +291,6 @@ nav {
 }
 
 .about_headings {
-    line-height: 2px;
     margin-bottom: 2.5rem;
 }
 
@@ -341,7 +344,7 @@ nav {
 
 .about_btn a {
     text-decoration: none;
-    width: 130px;
+    width: 180px;
     padding: 1rem;
     border-radius: 10px;
     border: none;
