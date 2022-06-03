@@ -135,7 +135,7 @@ nav {
 
 /*================== home section styling =======================*/
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 560px) {
     
 
     .home_container {
@@ -145,8 +145,6 @@ nav {
         /* align-self: center;
         justify-self: center; */
     }
-
-
 
     /* .social_media {
         grid-column-start: 1;
@@ -166,6 +164,28 @@ nav {
     .description .home_headings {
         margin-bottom: 3rem;
     }
+
+
+
+
+
+    .about_down {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .about_text {
+        width: 18%;
+    }
+    
+    .about_description {
+        margin-top: 0;
+        font-size: 1.2rem;
+    }
+
+
 
 
 }
@@ -255,88 +275,86 @@ nav {
 
 /*=================== about section styling ====================*/
 
-.container__about {
-    row-gap: 1rem;
-    width: 430px;
-    /* There was something wrong with the layaout, 
-    and I didn't know how to solve the issue. 
-    That's why I set the width to 430px. */
-}
-
-.about__up {
-    text-align: center;
-}
-
-.about__headings {
-    padding: 3rem 0;
-}
-
-.about__headings--title {
-    font-size: 2rem;
-}
-
-.about__headings--subtitle {
-    color: #6d6a7c;
-    font-size: 1.125rem;
-}
-
-.about__up img {
-    width: 280px;
-    border-radius: 10px;
+.about_container {
     margin: 2rem 0;
 }
 
-.about__description {
-    text-align: center;
-    color: #6d6a7c;
-    font-size: 1.2rem;
-}
-
-.about__down {
+.about_up {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 1.5rem;
-    padding: 3.5rem 0;
+    align-items: center;
 }
 
-.work__details {
-    text-align: center;
+.about_headings {
+    line-height: 2px;
+    margin-bottom: 2.5rem;
 }
 
-.description {
-    color: #6d6a7c;
-    font-size: 1.2rem;
-}
-
-.time {
-    font-weight: 600;
-    font-size: 25px;
-}
-
-.about__button {
-    display: flex;
-    justify-content: center;
-    margin: 1rem 1.8rem 0;
-}
-
-.about__button:hover{
-    box-shadow: 0 10px 36px rgba(0,0,0,.15);
-}
-
-.about__button a {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
+.about_container .img_box img {
     width: 200px;
-    font-size: 1.2rem;
-    background-color: #6e57e0;
-    border: none;
-    color: #fff;
+    border-radius: 10px;
 }
 
-.download {
-    width: 24px;
+.img_box {
+    text-align: center;
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about_description {
+    text-align: center;
+    margin-top: 2rem;
+    width: 82%;
+}
+
+.about_down .experience {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+
+.work_details {
+    text-align: center;
+}
+
+.work_details .time {
+    font-weight: 600;
+}
+
+.about_btn a svg {
+    width: 25px;
     fill: #fff;
+}
+
+.about_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.about_btn a {
+    text-decoration: none;
+    width: 130px;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #6e57e0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 1rem;
 }
 /* ================================================================================ */
 /* Start skills section */
@@ -1091,7 +1109,7 @@ so I am gonna keep it. */
 /* ================================================================================ */
 
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 668px) {
     
 
     body {
@@ -1099,7 +1117,7 @@ so I am gonna keep it. */
     }
     
     
-}
+} */
 
 
 

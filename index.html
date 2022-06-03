@@ -296,63 +296,65 @@
 
         <!-- about section -->
         <section>
-            <div class="container__about">
-                <div class="about__up">
-                    <div class="about__headings">
-                        <h1 class="about__headings--title">About Me</h1>
-                        <span class="about__headings--subtitle">My introduction</span>
-                    </div>
-
-                    <img src="/assets/images/about.jpg" alt="Oups!">
-
-                    <div class="about__description">
-                        <span>Web developer, with extensive knowledge</span>
-                        <br>
-                        <span>and years of experience, working in web</span>
-                        <br>
-                        <span>technologies and Ui / Ux design, delivering</span>
-                        <br>
-                        <span>quality work</span>
+            <div class="about_container">
+                <div class="about_up">
+                    <div class="about_headings">
+                        <h1 class="about_title">About Me</h1>
+                        <span class="about_subtitle">My introduction</span>
                     </div>
                 </div>
 
-                <div class="about__down">
-                    <div class="work__details">
-                        <span class="time">08+</span>
-                        <br>
-                        <span class="description">Years</span>
-                        <br>
-                        <span class="description">experience</span>
+                <div class="about_down">
+                    <div class="img_box">
+                        <img src="img/about.jpg" alt="Oups!">
                     </div>
-                    <div class="work__details">
-                        <span class="time">20+</span>
-                        <br>
-                        <span class="description">Completed</span>
-                        <br>
-                        <span class="description">projects</span>
-                    </div>
-                    <div class="work__details">
-                        <span class="time">05+</span>
-                        <br>
-                        <span class="description">Companies</span>
-                        <br>
-                        <span class="description">worked for</span>
-                    </div>
-                </div>
 
-                <div class="about__button">
-                    <a class="btn" href="/assets/DAK2DAK-CV bleu.pdf">
-                        Download CV
-                        <svg class="download" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M8.29,13.29a1,1,0,0,0,0,1.42l3,3a1,1,0,0,0,1.42,
-                                0l3-3a1,1,0,0,0-1.42-1.42L13,14.59V3a1,1,0,0,0-2,
-                                0V14.59l-1.29-1.3A1,1,0,0,0,8.29,13.29ZM18,9H16a1,
-                                1,0,0,0,0,2h2a1,1,0,0,1,1,1v7a1,1,0,0,1-1,1H6a1,1,
-                                0,0,1-1-1V12a1,1,0,0,1,1-1H8A1,1,0,0,0,8,9H6a3,3,0,
-                                0,0-3,3v7a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V12A3,3,0,0,0,18,9Z" />
-                        </svg>
-                        <i></i>
-                    </a>
+                    <div class="about_text">
+                        <div class="about_description">
+                            <span>Web developer, with extensive knowledge
+                            and years of experience, working in web
+                            technologies and Ui / Ux design, delivering
+                            quality work</span>
+                        </div>
+
+                        <div class="experience">
+                            <div class="work_details">
+                                <span class="time">08+</span>
+                                <br>
+                                <span class="status">Years</span>
+                                <br>
+                                <span class="status">experience</span>
+                            </div>
+                            <div class="work_details">
+                                <span class="time">20+</span>
+                                <br>
+                                <span class="status">Completed</span>
+                                <br>
+                                <span class="status">projects</span>
+                            </div>
+                            <div class="work_details">
+                                <span class="time">05+</span>
+                                <br>
+                                <span class="status">Companies</span>
+                                <br>
+                                <span class="status">worked for</span>
+                            </div>
+                        </div>
+
+                        <div class="about_btn">
+                            <a class="btn" href="DAK2DAK-CV bleu.pdf">
+                                Download CV
+                                <svg class="download" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M8.29,13.29a1,1,0,0,0,0,1.42l3,3a1,1,0,0,0,1.42,
+                                            0l3-3a1,1,0,0,0-1.42-1.42L13,14.59V3a1,1,0,0,0-2,
+                                            0V14.59l-1.29-1.3A1,1,0,0,0,8.29,13.29ZM18,9H16a1,
+                                            1,0,0,0,0,2h2a1,1,0,0,1,1,1v7a1,1,0,0,1-1,1H6a1,1,
+                                            0,0,1-1-1V12a1,1,0,0,1,1-1H8A1,1,0,0,0,8,9H6a3,3,0,
+                                            0,0-3,3v7a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V12A3,3,0,0,0,18,9Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>    
                 </div>
             </div>
         </section>
@@ -1229,6 +1231,11 @@
             </div>
         </section>
 
+        <div id="scroll" class="scroll">
+            <div class="scroll_btn">
+                <i class="fas fa-arrow-up"></i>
+            </div>
+        </div>
     </main>
 
     <footer id="footer">
@@ -1297,6 +1304,8 @@
 
 
 
+
+    <script src="./assets/JS/scroll.js"></script>
     <script src="./assets/JS/main.js"></script>
     <!-- Let's check if this is necessary -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
