@@ -133,6 +133,10 @@ nav {
 
 
 
+
+
+
+
 /*================== home section styling =======================*/
 
 @media screen and (min-width: 560px) {
@@ -198,7 +202,7 @@ nav {
 .home_container {
     display: grid;
     grid-template-columns: 50px 300px;
-    padding: 3rem 1.5rem;
+    padding: 3rem 2.5rem;
 }
 
 .social_media {
@@ -281,6 +285,7 @@ nav {
 
 .about_container {
     margin: 2rem 0;
+    padding: 0 2.5rem;
 }
 
 .about_up {
